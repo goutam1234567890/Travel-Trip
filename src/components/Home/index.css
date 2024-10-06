@@ -1,0 +1,128 @@
+@media screen and (min-width: 768px) {
+  .home-page {
+    display: flex;
+  }
+  .desktopView-container {
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+  }
+  .mobileView-home-container {
+    display: none;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 80px;
+  }
+  .headings {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 60px;
+  }
+  .image-element {
+    width: 644px;
+    height: 624px;
+    background-color: transparent;
+  }
+  .Book-button {
+    background-color: #304766;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 8px;
+    font-family: 'Roboto';
+  }
+  .home-image-container {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+  }
+  .description-container {
+    margin-left: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-page {
+    background-color: #f5f5f5;
+  }
+  .home-Book-button {
+    background-color: #304766;
+    width: 175px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px 8px 8px 8px;
+    color: #ffffff;
+  }
+  .home-headings {
+    color: #304766;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .home-description {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #304766;
+  }
+  .home-image-element {
+    width: 644px;
+    height: 624px;
+  }
+  .home-button-container {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .desktopView-container {
+    display: none;
+  }
+  .home-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+  }
+  .home-image-element {
+    width: 227px;
+    height: 312px;
+  }
+  .home-headings {
+    color: #304766;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .home-description {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #304766;
+  }
+  .home-Book-button {
+    background-color: #304766;
+    width: 175px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px 8px 8px 8px;
+    color: #ffffff;
+  }
+  .home-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .description-container {
+    margin-left: 10px;
+  }
+}

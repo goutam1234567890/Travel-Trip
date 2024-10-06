@@ -1,0 +1,69 @@
+@media screen and (min-width: 768px) {
+  .Travel-trip-logo {
+    font-family: Caveat;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .Home-name {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+
+  .my-trips {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+
+  .logout-button {
+    width: Hug (103px) px;
+    height: Hug (48px) px;
+    top: 23px;
+    left: 1101px;
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background: #ffffff;
+  }
+
+  .nav-container {
+    height: 93px;
+    background: #304766;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .list-item {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  .logout-button {
+    color: #1e293b;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container {
+    display: none;
+  }
+}

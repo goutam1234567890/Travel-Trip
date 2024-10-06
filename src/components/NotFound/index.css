@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .image1 {
+    width: 212.75px;
+    height: 177.8px;
+    display: none;
+  }
+
+  .paragraph {
+    height: 48px;
+  }
+
+  .heading {
+    height: 74.9px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .image {
+    height: 177.8px;
+    width: 212.75px;
+  }
+  .image1 {
+    width: 212.75px;
+    height: 177.8px;
+    display: none;
+  }
+
+  .paragraph {
+    height: 48px;
+  }
+
+  .heading {
+    height: 74.9px;
+  }
+}

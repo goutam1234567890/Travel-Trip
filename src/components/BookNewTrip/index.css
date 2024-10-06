@@ -1,0 +1,252 @@
+@media screen and (min-width: 768px) {
+  .BookTrip-container {
+    background-color: #dbeafe;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .booknewtrip-yourDetails-container {
+    height: 366px;
+    width: 448px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sm-booknewtrip-yourDetails-container {
+    display: none;
+  }
+  .slectionAndDetails-container {
+    width: 1035px;
+    height: 579px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .unordered-list {
+    height: 579px;
+    width: 268px;
+    background-color: #ffffff;
+    text-align: center;
+    list-style-type: number;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .details-container {
+    background-color: #1e293b;
+    width: 767px;
+    height: 579px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .yourDetails-form-container {
+    background-color: #ffffff;
+    height: 366px;
+    width: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .heading-container {
+    height: 61px;
+    width: 276px;
+    text-align: center;
+  }
+  .heading-details {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+  }
+  .paragraph-details {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #ffffff;
+    text-align: center;
+  }
+  .name-container {
+    height: 62px;
+    width: 352px;
+    margin-bottom: 20px;
+  }
+  .name-label {
+    color: #334155;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+  }
+  .input-name {
+    width: 352px;
+    height: 40px;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  .next-button {
+    width: 56px;
+    height: 32px;
+    border-radius: 6px;
+    padding: 6px 12px 6px 12px;
+    background-color: #2563eb;
+    color: #f1f5f9;
+    border: 0px;
+    margin-top: 15px;
+  }
+  .book-trip {
+    display: flex;
+  }
+  .booknewtrip-name-container {
+    height: 62px;
+    width: 352px;
+  }
+  .booknewtrip-name-label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #334155;
+  }
+  .booknewtrip-input-name {
+    width: 352px;
+    height: 38px;
+    padding: 9px 13px 9px 13px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+  }
+  .errormsg {
+    color: red;
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+    width: 352px;
+  }
+  .booknewtrip-next-button {
+    width: 56px;
+    height: 32px;
+    border-radius: 6px;
+    padding: 6px 12px 6px 12px;
+    background-color: #2563eb;
+    color: #f1f5f9;
+    border: 0px;
+  }
+  .booknewtrip-button-text {
+    color: #dbeafe;
+    background-color: #2563eb;
+    border: 0px;
+    border-radius: 6px;
+    padding: 6px 24px 6px 24px;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lg-ulist-container {
+    display: none;
+  }
+  .mobileView-BookTrip-container {
+    background-color: #ffffff;
+  }
+  .navbar-container {
+    height: 48px;
+    padding: 16px 0px 0px 0px;
+    border-radius: 12px 12px 0px 0px;
+    border-color: #d0d9e6;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+  }
+  .booknewtrip-heading-details {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .booknewtrip-paragraph-details {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #1e293b;
+  }
+  .booknewtrip-name-container {
+    height: 62px;
+    width: 352px;
+    margin-bottom: 20px;
+  }
+  .booknewtrip-name-label {
+    color: #334155;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+  }
+  .booknewtrip-input-name {
+    width: 352px;
+    height: 40px;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  .booknewtrip-next-button {
+    width: 56px;
+    height: 32px;
+    border-radius: 6px;
+    padding: 6px 12px 6px 12px;
+    background-color: #2563eb;
+    color: #f1f5f9;
+    border: 0px;
+  }
+  .booknewtrip-yourDetails-container {
+    margin-left: 10px;
+  }
+  .booknewtrip-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+  .booknewtrip-button-text {
+    color: #dbeafe;
+    background-color: #2563eb;
+    border: 0px;
+    border-radius: 6px;
+    padding: 6px 24px 6px 24px;
+    text-align: center;
+  }
+  .displayTab {
+    list-style-type: none;
+    border: 2px solid #e2e8f0;
+    margin-right: 2px;
+    width: 65px;
+  }
+  .unordered-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  .errormsg {
+    color: red;
+    font-size: 14px;
+    margin: -20px 0px 10px 0px;
+  }
+}

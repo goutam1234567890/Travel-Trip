@@ -1,0 +1,25 @@
+@media screen and (max-width: 767px) {
+  li {
+    list-style-type: none;
+    margin: 5px;
+  }
+  .bar {
+    border: 2px solid grey;
+    width: 60px;
+    border-radius: 100px;
+  }
+  ul {
+    display: flex;
+    height: 4px;
+    width: 328px;
+  }
+  .active {
+    border-color: #2563ebcc;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ulist {
+    display: none;
+  }
+}
