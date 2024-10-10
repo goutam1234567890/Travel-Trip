@@ -185,7 +185,6 @@ class BookNewTrip extends Component {
           if (store.step === 5) return <Confirmation />
           if (store.step === 6) return <Successful />
 
-          // Default case for step 1
           if (store.step === 1) {
             const {
               errorMessageStartLocation,
@@ -240,8 +239,7 @@ class BookNewTrip extends Component {
             )
           }
 
-          // Add a default return if no conditions match
-          return null // Or return an empty fragment <></>;
+          return null
         }}
       </AppContext.Consumer>
     )
@@ -249,62 +247,3 @@ class BookNewTrip extends Component {
 }
 
 export default BookNewTrip
-
-// <AppContext.Consumer>
-//         {({store, incrStep}) => {
-//           if (store.step === 2) return <DateSelection />
-//           if (store.step === 3) return <Guests />
-//           if (store.step === 4) return <TravelAssistance />
-//           if (store.step === 5) return <Confirmation />
-//           if (store.step === 6) return <Successful />
-//           else if (store.step === 1) {
-//             return (
-//               <>
-//                 <div>
-//                   <Header />
-//                   <div className="BookTrip-container">
-//                     <div className="slectionAndDetails-container">
-//                       <SideBarComponent />
-//                       <div className="details-container">
-//                         <div className="heading-container">
-//                           <h1 className="heading-details">Your Details</h1>
-//                           <p className="paragraph-details">
-//                             Enter your name and location details
-//                           </p>
-//                         </div>
-//                         <div className="booknewtrip-yourDetails-container">
-//                           {this.renderNameField()}
-//                           {errorMessageName && (
-//                             <p className="errormsg">Enter Your Name</p>
-//                           )}
-//                           {this.renderStartLocationField()}
-//                           {this.state.errorMessageStartLocation && (
-//                             <p className="errormsg">
-//                               Enter your start location
-//                             </p>
-//                           )}
-//                           {this.renderEndLocationField()}
-//                           {this.state.errorMessageEndLocation && (
-//                             <p className="errormsg">Enter your end location</p>
-//                           )}
-//                           <div className="booknewtrip-button-container">
-//                             <button
-//                               type="button"
-//                               className="booknewtrip-button-text"
-//                               onClick={() =>
-//                                 this.handleNextClick(store, incrStep)
-//                               }
-//                             >
-//                               Next
-//                             </button>
-//                           </div>
-//                         </div>
-//                       </div>
-//                     </div>
-//                   </div>
-//                 </div>
-//               </>
-//             )
-//           }
-//         }}
-//       </AppContext.Consumer>

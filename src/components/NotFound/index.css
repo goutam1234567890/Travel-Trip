@@ -6,19 +6,19 @@
     height: 100vh;
     justify-content: center;
   }
-
-  .image1 {
-    width: 212.75px;
-    height: 177.8px;
-    display: none;
-  }
-
   .paragraph {
     height: 48px;
   }
 
   .heading {
-    height: 74.9px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0px;
+  }
+  .image{
+    height: 290px;
+    width: 347px;
   }
 }
 
@@ -36,17 +36,15 @@
     height: 177.8px;
     width: 212.75px;
   }
-  .image1 {
-    width: 212.75px;
-    height: 177.8px;
-    display: none;
-  }
 
   .paragraph {
     height: 48px;
+    text-align: center;
   }
 
   .heading {
-    height: 74.9px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px;
   }
 }

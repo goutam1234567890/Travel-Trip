@@ -8,11 +8,6 @@ const NotFound = () => (
         alt="not found"
         className="image"
       />
-      <img
-        src="https://res.cloudinary.com/dqhagljvz/image/upload/v1724765828/Group_7520_rqf9iv.png"
-        alt="not found"
-        className="image1"
-      />
       <h1 className="heading">Page Not Found</h1>
       <p className="paragraph">
         We are sorry, the page you requested could not be found.

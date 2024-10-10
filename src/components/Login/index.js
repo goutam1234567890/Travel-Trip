@@ -76,23 +76,23 @@ class Login extends Component {
     return (
       <div className="login-password-container">
         <label htmlFor="password" className="login-password-label">
-          Password
+          PASSWORD
         </label>
         <br />
-        <div>
+        <div className="input-container">
           <input
-            type={showPassword ? 'text' : 'PASSWORD'}
+            type={showPassword ? 'text' : 'password'}
             id="password"
             className="login-password-input"
             value={password}
             onChange={this.onChangePassword}
             placeholder="Password"
-            data-testid="show-password"
           />
           <button
             type="button"
             onClick={this.togglePasswordVisibility}
             className="eye-button"
+            data-testid="show-password"
           >
             {showPassword ? (
               <img
@@ -107,6 +107,7 @@ class Login extends Component {
             )}
           </button>
         </div>
+
         {showErrorMsg && <p className="login-error-msg">{errorMsg}</p>}
       </div>
     )

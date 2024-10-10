@@ -126,12 +126,12 @@ class DateSelection extends Component {
                     <div className="dateSelection-yourDetails-container">
                       <div className="dateSelection-container">
                         <div className="startDate-container">
-                          <label htmlFor="dateinput" className="startDate">
+                          <label htmlFor="startDate" className="startDate">
                             Start Date
                           </label>
                           <br />
                           <input
-                            id="dateinput"
+                            id="startDate"
                             type="date"
                             value={startDate}
                             onChange={updateStartDate}
@@ -143,12 +143,12 @@ class DateSelection extends Component {
                           <p className="errorMsg">Select start date</p>
                         )}
                         <div className="startDate-container">
-                          <label htmlFor="dateinput" className="startDate">
+                          <label htmlFor="endDate" className="startDate">
                             End Date
                           </label>
                           <br />
                           <input
-                            id="dateinput"
+                            id="endDate"
                             className="startDate-input"
                             type="date"
                             value={endDate}

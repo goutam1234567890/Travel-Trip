@@ -64,7 +64,7 @@ const Confirmation = () => (
                     </div>
                   </div>
                   <div className="confirmation-button-container">
-                    <Link to="/">
+                    <Link to="/book-a-new-trip">
                       <button
                         type="button"
                         className="confirmation-cancel-button"
