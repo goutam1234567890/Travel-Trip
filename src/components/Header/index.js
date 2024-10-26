@@ -9,7 +9,7 @@ const Header = props => {
     history.replace('/login')
   }
   return (
-    <nav>
+    <nav className="nav-containers">
       <div className="nav-container">
         <Link to="/" className="Travel-trip-logo">
           Travel Trip

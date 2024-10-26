@@ -1,6 +1,9 @@
 import Cookies from 'js-cookie'
 import {withRouter} from 'react-router-dom'
 import './index.css'
+import {RiSuitcase2Line} from 'react-icons/ri'
+import {BiLogOut} from 'react-icons/bi'
+import {FiHome} from 'react-icons/fi'
 import {AppContext} from '../../context/AppProvider'
 
 const FooterComponent = props => (
@@ -25,37 +28,28 @@ const FooterComponent = props => (
             type="button"
             className="nav-button"
             onClick={handleNavigation('/')}
-            aria-label="Go to home"
+            aria-labelledby="homeLabel"
           >
-            <img
-              src="https://res.cloudinary.com/dqhagljvz/image/upload/v1726493502/Frame_29_1_wxqo3f.png"
-              alt="home"
-            />
+            <FiHome />
           </button>
           <button
             type="button"
             className="nav-button"
             onClick={handleNavigation('/my-trips')}
-            aria-label="View my trips"
+            aria-labelledby="tripsLabel"
           >
-            <img
-              src="https://res.cloudinary.com/dqhagljvz/image/upload/v1724763705/Frame_33_zhtbgn.png"
-              alt="my-trips"
-            />
+            <RiSuitcase2Line />
           </button>
           <button
             type="button"
             className="nav-button"
             onClick={() => {
-              onClickLogout() // Call the logout function
-              resetState() // Reset state on logout
+              onClickLogout()
+              resetState()
             }}
-            aria-label="Logout"
+            aria-labelledby="logoutLabel"
           >
-            <img
-              src="https://res.cloudinary.com/dqhagljvz/image/upload/v1724763832/Frame_35_xeiwft.png"
-              alt="logout"
-            />
+            <BiLogOut />
           </button>
         </div>
       )

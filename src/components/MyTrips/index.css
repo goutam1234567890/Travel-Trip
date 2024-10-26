@@ -1,132 +1,101 @@
-@media screen and (max-width: 767px) {
-  .mytrips-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  .mytrips-image {
-    height: 75px;
-    width: 63px;
-  }
-  .mytrips-heading {
-    font-size: 16px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    color: #191919;
-  }
-  .mytrips-paragraph {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Roboto';
-    color: #191919;
-  }
-  .mytrips-button {
-    width: 134px;
-    height: 32px;
-    border-radius: 6px;
-    padding: 6px 12px 6px 12px;
-    background-color: #2563eb;
-    border: 0px;
-    color: #ffffff;
-  }
-  .myTrips-heading {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 20px;
-    margin: 40px 0px 20px 45px;
-    color: #334155;
-  }
-  .myTrips-listItem {
-    height: 192px;
-    width: 328px;
-    border-radius: 16px;
-    border: 1px solid #304766;
-    padding-left: 20px;
-    margin-bottom: 20px;
-  }
-  .myTrips-endLocation {
-    font-weight: 600;
-    font-family: 'Roboto';
-    font-size: 24px;
-    color: #334155;
-  }
-  .myTrips-date {
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-weight: 300;
-    color: #334155;
-  }
-  .myTrips-date {
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-weight: 300;
-    color: #334155;
-  }
-  .myTrips-startendDate {
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-weight: 300;
-    color: #334155;
-  }
-  .myTrips-button {
-    height: 28px;
-    width: 64px;
-    color: #2563eb;
-    background: transparent;
-    border: 2px solid #2563eb;
-    border-radius: 6px;
-  }
-  .myTrips-map-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.mytrips-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mytrips-image {
+  height: 75px;
+  width: 63px;
+}
+.mytrips-heading {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #191919;
+}
+.mytrips-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #191919;
+}
+.mytrips-button {
+  width: 134px;
+  height: 32px;
+  border-radius: 6px;
+  padding: 6px 12px 6px 12px;
+  background-color: #2563eb;
+  border: 0px;
+  color: #ffffff;
+}
+.myTrips-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  margin: 40px 0px 20px 45px;
+  color: #334155;
+}
+.myTrips-listItem {
+  height: 192px;
+  width: 328px;
+  border-radius: 16px;
+  border: 1px solid #304766;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.myTrips-endLocation {
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #334155;
+}
+.myTrips-date {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #334155;
+}
+.myTrips-date {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #334155;
+}
+.myTrips-startendDate {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #334155;
+}
+.myTrips-button {
+  height: 28px;
+  width: 64px;
+  color: #2563eb;
+  background: transparent;
+  border: 2px solid #2563eb;
+  border-radius: 6px;
+}
+.myTrips-map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerSection {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-  .mytrips-container {
-    display: none;
-  }
-  .mytrips-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  .mytrips-image {
-    height: 75px;
-    width: 63px;
-  }
-  .mytrips-heading {
-    font-size: 16px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    color: #191919;
-  }
-  .mytrips-paragraph {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Roboto';
-    color: #191919;
-  }
-  .mytrips-button {
-    width: 134px;
-    height: 32px;
-    border-radius: 6px;
-    padding: 6px 12px 6px 12px;
-    background-color: #2563eb;
-    border: 0px;
-    color: #ffffff;
-  }
   .myTrips-heading {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     margin: 40px 0px 20px 50px;
     color: #334155;
+  }
+  .headerSection {
+    display: block;
   }
   .myTrips-listItem {
     height: 140px;

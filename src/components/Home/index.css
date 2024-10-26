@@ -1,6 +1,57 @@
+.nav-containers {
+  display: none;
+}
+
+.desktopView-container {
+  display: none;
+}
+
+.home-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 30px 0px;
+}
+.home-image-element {
+  width: 227px;
+  height: 312px;
+}
+.home-headings {
+  color: #304766;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+.home-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #304766;
+}
+.home-Book-button {
+  background-color: #304766;
+  width: 175px;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 8px 8px 8px 8px;
+  color: #ffffff;
+}
+.home-button-container {
+  display: flex;
+  justify-content: center;
+}
+.description-container {
+  margin-left: 10px;
+}
+
 @media screen and (min-width: 768px) {
   .home-page {
     display: flex;
+    background-color: #f5f5f5;
+  }
+  .nav-containers {
+    display: block;
   }
   .desktopView-container {
     background-color: #f5f5f5;
@@ -49,9 +100,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .home-page {
-    background-color: #f5f5f5;
-  }
+
   .home-Book-button {
     background-color: #304766;
     width: 175px;
@@ -80,49 +129,5 @@
   }
   .home-button-container {
     display: flex;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .desktopView-container {
-    display: none;
-  }
-  .home-image-container {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0px 30px 0px;
-  }
-  .home-image-element {
-    width: 227px;
-    height: 312px;
-  }
-  .home-headings {
-    color: #304766;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: left;
-  }
-  .home-description {
-    font-family: 'Roboto';
-    font-size: 16px;
-    font-weight: 400;
-    text-align: left;
-    color: #304766;
-  }
-  .home-Book-button {
-    background-color: #304766;
-    width: 175px;
-    height: 48px;
-    padding: 12px 24px 12px 24px;
-    border-radius: 8px 8px 8px 8px;
-    color: #ffffff;
-  }
-  .home-button-container {
-    display: flex;
-    justify-content: center;
-  }
-  .description-container {
-    margin-left: 10px;
   }
 }

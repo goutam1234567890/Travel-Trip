@@ -1,3 +1,88 @@
+.login-password-container {
+  margin-left: 20px;
+}
+.login-password-label {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Inter;
+  color: #334155;
+}
+.input-container {
+  position: relative;
+  width: 100%; /* adjust as needed */
+}
+
+.login-password-input {
+  box-sizing: border-box;
+  width: 272px;
+  height: 38px;
+  border-radius: 8px;
+  padding: 8px 8px 8px 12px;
+  border: 1px #64748b solid;
+  margin-top: 10px;
+}
+
+.eye-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+}
+
+.login-button-container {
+  text-align: center;
+}
+.login-username-container {
+  margin-left: 20px;
+}
+
+.login-travel-trip-logo {
+  color: #334155;
+  font-family: Caveat;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.login-username-label {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Inter;
+  color: #334155;
+}
+
+.login-username-input {
+  width: 272px;
+  height: 38px;
+  border-radius: 8px;
+  padding: 8px 8px 8px 12px;
+  border: 1px #64748b solid;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+.login-error-msg {
+  color: #ef4444;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'DM Sans';
+}
+
+.login-submit-button {
+  font-size: 20px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 8px;
+  background-color: #304766;
+  color: #ffffff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.navbar-container {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .login-form {
     width: 485px;
@@ -115,104 +200,5 @@
     width: 352px;
     height: 38px;
     margin-bottom: 40px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .input-container {
-    position: relative;
-    width: 100%; /* adjust as needed */
-  }
-
-  .login-password-input {
-    width: 100%;
-    padding-right: 40px; /* give space for the eye icon */
-    padding: 10px;
-    box-sizing: border-box;
-  }
-
-  .eye-button {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-  }
-
-  .eye-button img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .login-button-container {
-    text-align: center;
-  }
-  .login-username-container {
-    margin-left: 20px;
-  }
-  .login-password-container {
-    margin-left: 20px;
-  }
-  .login-travel-trip-logo {
-    color: #334155;
-    font-family: Caveat;
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-  }
-  .login-username-label {
-    font-weight: 500;
-    font-size: 14px;
-    font-family: Inter;
-    color: #334155;
-  }
-  .login-password-label {
-    font-weight: 500;
-    font-size: 14px;
-    font-family: Inter;
-    color: #334155;
-  }
-
-  .login-username-input {
-    width: 272px;
-    height: 38px;
-    border-radius: 8px;
-    padding: 8px 8px 8px 12px;
-    border: 1px #64748b solid;
-    background-color: #ffffff;
-    margin-top: 10px;
-  }
-  .login-error-msg {
-    color: #ef4444;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'DM Sans';
-  }
-  .login-password-input {
-    width: 272px;
-    height: 38px;
-    border-radius: 8px;
-    padding: 8px 8px 8px 12px;
-    border: 1px #64748b solid;
-    background-color: #ffffff;
-    margin-top: 10px;
-  }
-  .login-submit-button {
-    font-size: 20px;
-    padding: 12px 24px 12px 24px;
-    border-radius: 8px;
-    background-color: #304766;
-    color: #ffffff;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  .eye-button {
-    height: 20px;
-    width: 20px;
-    border: 0px;
-    background-color: transparent;
   }
 }

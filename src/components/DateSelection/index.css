@@ -1,86 +1,84 @@
-@media screen and (max-width: 767px) {
-  .date-heading {
-    font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 20px;
-  }
-  .heading-container {
-    margin-left: 15px;
-  }
-  .dateSelection-container {
-    font-family: 'Roboto';
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .dateSelection-yourDetails-container {
-    background-color: #ffffff;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.date-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+}
+.heading-container {
+  margin-left: 15px;
+}
+.dateSelection-container {
+  font-family: 'Roboto';
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dateSelection-yourDetails-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .date-paragraph {
-    font-family: 'Roboto';
-    font-size: 16px;
-    color: #5c6777;
-  }
-  .startDate {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    color: #334155;
-  }
-  .startDate-input {
-    font-family: 'Roboto';
-    width: 328px;
-    height: 40px;
-    border-radius: 8px;
-    padding: 8px 8px 8px 12px;
-    border: 1px solid #64748b;
-    margin-top: 15px;
-  }
-  .buttons-container {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 45px;
-  }
-  .previous-button {
-    font-family: 'Roboto';
-    width: 82px;
-    height: 32px;
-    font-weight: 500;
-    font-size: 14px;
-    color: #2563eb;
-    border-radius: 6px;
-    padding: 6px 12px 6px 12px;
-    background-color: #dbeafe;
-    border: 0px;
-    margin-right: 20px;
-  }
-  .dateselection-next-button {
-    font-family: 'Roboto';
-    width: 56px;
-    height: 32px;
-    border-radius: 6px;
-    padding: 6px 12px 6px 12px;
-    background-color: #2563eb;
-    color: #f1f5f9;
-    border: 0px;
-  }
-  .startDate-container {
-    width: 328px;
-    height: 68px;
-    margin-bottom: 30px;
-  }
-  .errorMsg {
-    color: red;
-    font-size: 14px;
-    margin: -20px 0px 10px 0px;
-  }
+.date-paragraph {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #5c6777;
+}
+.startDate {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  color: #334155;
+}
+.startDate-input {
+  font-family: 'Roboto';
+  width: 328px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 8px 8px 12px;
+  border: 1px solid #64748b;
+  margin-top: 15px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 45px;
+}
+.previous-button {
+  font-family: 'Roboto';
+  width: 82px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #2563eb;
+  border-radius: 6px;
+  padding: 6px 12px 6px 12px;
+  background-color: #dbeafe;
+  border: 0px;
+  margin-right: 20px;
+}
+.dateselection-next-button {
+  font-family: 'Roboto';
+  width: 56px;
+  height: 32px;
+  border-radius: 6px;
+  padding: 6px 12px 6px 12px;
+  background-color: #2563eb;
+  color: #f1f5f9;
+  border: 0px;
+}
+.startDate-container {
+  width: 328px;
+  height: 68px;
+  margin-bottom: 30px;
+}
+.errorMsg {
+  color: red;
+  font-size: 14px;
+  margin: -20px 0px 10px 0px;
 }
 
 @media screen and (min-width: 768px) {

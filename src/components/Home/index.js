@@ -7,8 +7,8 @@ const Home = () => (
   <AppContext.Consumer>
     {({resetState}) => (
       <>
+        <Header />
         <div>
-          <Header />
           <div className="home-page">
             <div className="home-image-container">
               <img

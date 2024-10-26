@@ -1,4 +1,4 @@
-import {Switch, Route, Redirect} from 'react-router-dom'
+import {Switch, Route, Redirect, withRouter} from 'react-router-dom'
 import {Component} from 'react'
 import Login from './components/Login'
 import Home from './components/Home'
@@ -14,6 +14,7 @@ import './App.css'
 
 class App extends Component {
   render() {
+    const {location} = this.props
     return (
       <AppProvider>
         <StepComponent />
@@ -29,9 +30,9 @@ class App extends Component {
           <Route exact path="/not-found" component={NotFound} />
           <Redirect to="/not-found" />
         </Switch>
-        <FooterComponent />
+        {location.pathname !== '/login' && <FooterComponent />}
       </AppProvider>
     )
   }
 }
-export default App
+export default withRouter(App)
